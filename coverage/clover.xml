@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1508756126159" clover="3.2.0">
+  <project timestamp="1508756126159" name="All files">
+    <metrics statements="188" coveredstatements="104" conditionals="44" coveredconditionals="5" methods="45" coveredmethods="9" elements="277" coveredelements="118" complexity="0" loc="188" ncloc="188" packages="7" files="14" classes="14">
+      <package name="server">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="config.js" path="/Volumes/Work/long/react-starter-kit/server/config.js">
+          <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="server.api.constants">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="role.js" path="/Volumes/Work/long/react-starter-kit/server/api/constants/role.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="server.api.controllers">
+        <metrics statements="84" coveredstatements="17" conditionals="30" coveredconditionals="2" methods="32" coveredmethods="3"/>
+        <file name="auth.controller.js" path="/Volumes/Work/long/react-starter-kit/server/api/controllers/auth.controller.js">
+          <metrics statements="14" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="3"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+        </file>
+        <file name="entry.controller.js" path="/Volumes/Work/long/react-starter-kit/server/api/controllers/entry.controller.js">
+          <metrics statements="35" coveredstatements="4" conditionals="12" coveredconditionals="0" methods="13" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="71" count="0" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="81" count="0" type="stmt"/>
+          <line num="83" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="84" count="0" type="stmt"/>
+          <line num="85" count="0" type="stmt"/>
+          <line num="88" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="89" count="0" type="stmt"/>
+          <line num="90" count="0" type="stmt"/>
+          <line num="93" count="0" type="stmt"/>
+          <line num="94" count="0" type="stmt"/>
+          <line num="99" count="1" type="stmt"/>
+        </file>
+        <file name="user.controller.js" path="/Volumes/Work/long/react-starter-kit/server/api/controllers/user.controller.js">
+          <metrics statements="35" coveredstatements="3" conditionals="16" coveredconditionals="0" methods="13" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="34" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="55" count="0" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="64" count="0" type="stmt"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="72" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="73" count="0" type="stmt"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="84" count="0" type="stmt"/>
+          <line num="86" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="87" count="0" type="stmt"/>
+          <line num="88" count="0" type="stmt"/>
+          <line num="91" count="0" type="stmt"/>
+          <line num="92" count="0" type="stmt"/>
+          <line num="97" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="server.api.models">
+        <metrics statements="29" coveredstatements="19" conditionals="8" coveredconditionals="1" methods="9" coveredmethods="3"/>
+        <file name="entry.model.js" path="/Volumes/Work/long/react-starter-kit/server/api/models/entry.model.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+        </file>
+        <file name="user.model.js" path="/Volumes/Work/long/react-starter-kit/server/api/models/user.model.js">
+          <metrics statements="24" coveredstatements="14" conditionals="8" coveredconditionals="1" methods="8" coveredmethods="3"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="31" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="39" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="server.api.policies">
+        <metrics statements="6" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <file name="index.js" path="/Volumes/Work/long/react-starter-kit/server/api/policies/index.js">
+          <metrics statements="6" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="server.api.routes">
+        <metrics statements="47" coveredstatements="47" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="auth.route.js" path="/Volumes/Work/long/react-starter-kit/server/api/routes/auth.route.js">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+        </file>
+        <file name="entry.route.js" path="/Volumes/Work/long/react-starter-kit/server/api/routes/entry.route.js">
+          <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Volumes/Work/long/react-starter-kit/server/api/routes/index.js">
+          <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+        </file>
+        <file name="profile.route.js" path="/Volumes/Work/long/react-starter-kit/server/api/routes/profile.route.js">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+        </file>
+        <file name="user.route.js" path="/Volumes/Work/long/react-starter-kit/server/api/routes/user.route.js">
+          <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="server.middlewares">
+        <metrics statements="16" coveredstatements="14" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <file name="backendMiddleware.js" path="/Volumes/Work/long/react-starter-kit/server/middlewares/backendMiddleware.js">
+          <metrics statements="16" coveredstatements="14" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="2"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
